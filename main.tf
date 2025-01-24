@@ -6,9 +6,4 @@ terraform {
     }
   }
 
-  backend "s3" {
-    bucket = "nginx-statefile01"
-    key = "backend.tfstate"
-    region = "ap-south-1"    
-  }
 }
