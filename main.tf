@@ -1,1 +1,3 @@
-provider "local" {}
+provider "aws" {
+  region : "ap-south-1"
+}
